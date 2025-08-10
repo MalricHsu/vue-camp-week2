@@ -53,17 +53,17 @@
     <br />
     <p>登入輸入資訊：{{ signInField }}</p>
     <p>token：{{ signInRes }}</p>
-  </div>
-  <br />
-  <br />
-  <h2>驗證</h2>
-  {{ user }}
-  <div v-if="user && user.uid">
-    <p>Uid：{{ user.uid }}</p>
-    <p>NickName{{ user.nickname }}</p>
-  </div>
-  <div v-else>
-    <p>你還沒有登入喔</p>
+    <br />
+    <br />
+    <h2>驗證</h2>
+    {{ user }}
+    <div v-if="user && user.uid">
+      <p>Uid：{{ user.uid }}</p>
+      <p>NickName{{ user.nickname }}</p>
+    </div>
+    <div v-else>
+      <p>你還沒有登入喔</p>
+    </div>
   </div>
 </template>
 
