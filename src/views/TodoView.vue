@@ -54,7 +54,6 @@
     <p>登入輸入資訊：{{ signInField }}</p>
     <p>token：{{ signInRes }}</p>
     <br />
-    <br />
     <h2>驗證</h2>
     {{ user }}
     <div v-if="user && user.uid">
